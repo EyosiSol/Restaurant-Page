@@ -4,12 +4,12 @@ const menuBtn = document.getElementById("menu");
 const aboutBtn = document.getElementById("about");
 //the functions
 import home from "./home"
+import menu from './menu'
 
+// function menu() {
+//   container.innerHTML = "This is the menu page";
 
-function menu() {
-  container.innerHTML = "This is the menu page";
-
-}
+// }
 function about() {
   container.innerHTML = "This is the about page";
 }
