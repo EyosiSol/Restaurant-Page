@@ -4,16 +4,24 @@ export default function home() {
     container.innerHTML = "";
     const videoDiv = document.createElement("div");
     const righthome = document.createElement("div");
-  
+    const home = document.createElement("div");
+
+    home.className = "home";
+
     videoDiv.className = "video";
-  
-    videoDiv.innerHTML =
-      '<video src="https://framerusercontent.com/modules/assets/KNjmnFp5kwda6KegO13wieYyI0~X8VYXNZqrM3GjnnMxrYu-UFwPJWSO_wIyhsPF4HsDlE.mp4" loop autoplay></video>';
-  
-    righthome.className = "right home";
+    videoDiv.innerHTML = '<video src="https://framerusercontent.com/modules/assets/KNjmnFp5kwda6KegO13wieYyI0~X8VYXNZqrM3GjnnMxrYu-UFwPJWSO_wIyhsPF4HsDlE.mp4" loop autoplay style="cursor: auto; width: 100%; height: 100%; border-radius: 0px; display: block; object-fit: cover; background-color: rgba(0, 0, 0, 0); object-position: 50% 50%;"></video>'
+    
+    righthome.className = "righthome";
     righthome.innerHTML =
-      '<div class="home"><img src="https://framerusercontent.com/images/EKJJBnLQzSzsS1Sp8JrOMfZgqw.webp" alt=""></div><div class="reservation"><img src="https://framerusercontent.com/images/slPotYXPFXAfEsa1a4GJhZIk.webp" alt=""></div><div class="aboutUs"><img src="https://framerusercontent.com/images/InB1qO4eodYHQXKOVBszhLURHE.webp" alt=""></div>';
+      '<div class="menu"><button id="menu">MENU</button></div><div class="reservation"><button id ="reservation">RESERVATION</button></div><div class="aboutUs"><button id="about">ABOUT US</button></div>';
   
-    container.appendChild(videoDiv);
-    container.appendChild(righthome);
+    home.appendChild(videoDiv);
+    home.appendChild(righthome);
+
+    container.appendChild(home);
   }
+
+//video <video src="https://framerusercontent.com/modules/assets/KNjmnFp5kwda6KegO13wieYyI0~X8VYXNZqrM3GjnnMxrYu-UFwPJWSO_wIyhsPF4HsDlE.mp4" loop autoplay></video>
+//img 1 <img src="https://framerusercontent.com/images/EKJJBnLQzSzsS1Sp8JrOMfZgqw.webp" alt="">
+//img 2 <img src="https://framerusercontent.com/images/slPotYXPFXAfEsa1a4GJhZIk.webp" alt="">
+//img 3 <img src="https://framerusercontent.com/images/InB1qO4eodYHQXKOVBszhLURHE.webp" alt="">

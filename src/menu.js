@@ -1,6 +1,5 @@
 const content = document.getElementById('content');
 
-
 export default function menu(){
     content.innerHTML = ''
     const container = document.createElement('div');
@@ -25,7 +24,7 @@ export default function menu(){
 
     copyright.className = 'copyright';
 
-    MenuImg.innerHTML = '<img src="https://framerusercontent.com/images/10I4GJR5nYsUsYnoOPIDjoapkA.webp" alt=""/>'
+    
 
 
     maki.innerHTML = '<h1>MAKI</h1><div class="STunaMaki"><img src="https://framerusercontent.com/images/QAnUAEBWAkCE4NM4Ja4aQy9Tu4.webp" alt=""/> <div class="detail"><h2>Spicy Tuna Maki</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quis aut beatae.</p></div></div><div class="MangoMaki"> <img src="https://framerusercontent.com/images/QAnUAEBWAkCE4NM4Ja4aQy9Tu4.webp" alt=""/> <div class="detail"> <h2>Mango Maki</h2> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quis aut beatae.</p></div></div><div class="SalmonMaki"><img src="https://framerusercontent.com/images/QAnUAEBWAkCE4NM4Ja4aQy9Tu4.webp" alt=""/><div class="detail"><h2>Salmon Maki</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Illum quis aut beatae.</p></div></div><div class="TunaMaki"> <img src="https://framerusercontent.com/images/QAnUAEBWAkCE4NM4Ja4aQy9Tu4.webp" alt=""/><div class="detail"><h2>Tuna Maki</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Illum quis aut beatae.</p></div></div>';
@@ -36,13 +35,15 @@ export default function menu(){
 
     copyright.innerHTML = '<p>&#169;The Odin Project/EyosiSol</p>'
 
-    container.appendChild(MenuImg);
+    
     zMenu.appendChild(maki);
     zMenu.appendChild(uramaki);
     zMenu.appendChild(spec);
 
     food.appendChild(zMenu);
     food.appendChild(copyright)
+
+    container.appendChild(MenuImg);
     container.appendChild(food);
 
     content.appendChild(container)
