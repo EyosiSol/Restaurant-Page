@@ -12,7 +12,8 @@ console.log("Hello World");
 
 //callings
 // home();
-menu();
+// menu();
+about();
 homeBtn.addEventListener("click", home);
 menuBtn.addEventListener("click", menu);
 aboutBtn.addEventListener("click", about);

@@ -10,7 +10,7 @@ export default function menu(){
     const maki = document.createElement('div');
     const uramaki = document.createElement('div');
     const spec = document.createElement('div');
-
+    const buttons = document.createElement('div')
 
 
     container.className = "container";
@@ -20,14 +20,16 @@ export default function menu(){
     maki.className = "maki";
     uramaki.className = "uramaki";
     spec.className = 'Specials'
-    
+    buttons.className = 'foodbtns'  
 
     copyright.className = 'copyright';
 
     
+    buttons.innerHTML =' <button id="maki">MAKI</button> <button id="uramaki">URAMAKI</button> <button id="spec">SPECIAL ROLLS</button>';
 
+    food.appendChild(buttons);
 
-    maki.innerHTML = '<h1>MAKI</h1><div class="STunaMaki"><img src="https://framerusercontent.com/images/QAnUAEBWAkCE4NM4Ja4aQy9Tu4.webp" alt=""/> <div class="detail"><h2>Spicy Tuna Maki</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quis aut beatae.</p></div></div><div class="MangoMaki"> <img src="https://framerusercontent.com/images/QAnUAEBWAkCE4NM4Ja4aQy9Tu4.webp" alt=""/> <div class="detail"> <h2>Mango Maki</h2> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quis aut beatae.</p></div></div><div class="SalmonMaki"><img src="https://framerusercontent.com/images/QAnUAEBWAkCE4NM4Ja4aQy9Tu4.webp" alt=""/><div class="detail"><h2>Salmon Maki</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Illum quis aut beatae.</p></div></div><div class="TunaMaki"> <img src="https://framerusercontent.com/images/QAnUAEBWAkCE4NM4Ja4aQy9Tu4.webp" alt=""/><div class="detail"><h2>Tuna Maki</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Illum quis aut beatae.</p></div></div>';
+    maki.innerHTML = '<h1>MAKI</h1><div class="STunaMaki"><img src="https://framerusercontent.com/images/QAnUAEBWAkCE4NM4Ja4aQy9Tu4.webp" alt=""/> <div class="detail"><h2>SPICY TUNA MAKI</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quis aut beatae.</p></div></div><div class="MangoMaki"> <img src="https://framerusercontent.com/images/QAnUAEBWAkCE4NM4Ja4aQy9Tu4.webp" alt=""/> <div class="detail"> <h2>MANGO MAKI</h2><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quis aut beatae.</p></div></div><div class="SalmonMaki"><img src="https://framerusercontent.com/images/QAnUAEBWAkCE4NM4Ja4aQy9Tu4.webp" alt=""/><div class="detail"><h2>SALMON MAKI</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Illum quis aut beatae.</p></div></div><div class="TunaMaki"> <img src="https://framerusercontent.com/images/QAnUAEBWAkCE4NM4Ja4aQy9Tu4.webp" alt=""/><div class="detail"><h2>TUNA MAKI</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Illum quis aut beatae.</p></div></div>';
 
     uramaki.innerHTML = '<h1>URAMAKI</h1><div class="Volcano"><img src="https://framerusercontent.com/images/QAnUAEBWAkCE4NM4Ja4aQy9Tu4.webp" alt=""/> <div class="detail"><h2>Volcano Delight</h2><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quis aut beatae.</p></div></div> <div class="Rainbow"><img src="https://framerusercontent.com/images/QAnUAEBWAkCE4NM4Ja4aQy9Tu4.webp" alt=""/> <div class="detail"><h2>Rainbow Fusion</h2><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quis aut beatae.</p></div></div> <div class="Dragon"><img src="https://framerusercontent.com/images/QAnUAEBWAkCE4NM4Ja4aQy9Tu4.webp" alt=""/><div class="detail"><h2>Dragon Elegance</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quis aut beatae.</p></div></div><div class="Sunset"><img src="https://framerusercontent.com/images/QAnUAEBWAkCE4NM4Ja4aQy9Tu4.webp" alt=""/><div class="detail"> <h2>Sunset Serenity</h2> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quis aut beatae.</p></div></div>'
 
