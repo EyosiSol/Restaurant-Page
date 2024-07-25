@@ -35,6 +35,3 @@ export default function about(){
 
     content.appendChild(container);
 }
-// top image <img src="https://framerusercontent.com/images/I8AGYbzHAG3DaCqU2wYCmWnrFLw.webp" alt="">
-
-//bottom image <img src="https://framerusercontent.com/images/G4pBdBCgBUC7XWv710nE2LXLUTs.webp" alt="">

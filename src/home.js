@@ -21,7 +21,3 @@ export default function home() {
     container.appendChild(home);
   }
 
-//video <video src="https://framerusercontent.com/modules/assets/KNjmnFp5kwda6KegO13wieYyI0~X8VYXNZqrM3GjnnMxrYu-UFwPJWSO_wIyhsPF4HsDlE.mp4" loop autoplay></video>
-//img 1 <img src="https://framerusercontent.com/images/EKJJBnLQzSzsS1Sp8JrOMfZgqw.webp" alt="">
-//img 2 <img src="https://framerusercontent.com/images/slPotYXPFXAfEsa1a4GJhZIk.webp" alt="">
-//img 3 <img src="https://framerusercontent.com/images/InB1qO4eodYHQXKOVBszhLURHE.webp" alt="">
