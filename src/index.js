@@ -11,9 +11,9 @@ import about from './about';
 console.log("Hello World");
 
 //callings
-// home();
+home();
 // menu();
-about();
+// about();
 homeBtn.addEventListener("click", home);
 menuBtn.addEventListener("click", menu);
 aboutBtn.addEventListener("click", about);
